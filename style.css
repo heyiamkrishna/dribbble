@@ -18,15 +18,15 @@ body {
 #page1 {
     height: 100%;
     width: 100%;
-    background-color: red;
+    /* background-color: red; */
 }
 
 #nav {
     margin-top: 1.5vw;
-    padding: 0px 2vw;
+    padding: 0px 2.8vw;
     height: 4vw;
     width: 100%;
-    background-color: blue;
+    /* background-color: blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,9 +38,13 @@ body {
     width: 30%;
     justify-content: space-between;
     align-items: center;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
-
+#nav-part1 h4{
+    font-weight: 500;
+margin-right: 3vw;
+white-space: nowrap;
+}
 #nav img {
     height: 100%;
     background-color: green;
@@ -55,13 +59,13 @@ body {
     align-items: center;
     display: flex;
     justify-content: flex-end;
-    background-color: yellow;
-    gap: 1vw;
+    /* background-color: yellow; */
+    gap: 0.5vw;
 }
 
 #nav-part2 button {
     /* padding: 0.5vw 1vw; */
-    padding: 1vw 1.5vw;
+    padding: 1vw 1.7vw;
     border-radius: 1.5vw;
     color: #fff;
     font-size: 1vw;
