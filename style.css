@@ -38,7 +38,7 @@ body {
     width: 30%;
     justify-content: space-between;
     align-items: center;
-    background-color: skyblue;
+    /* background-color: skyblue; */
 }
 
 #nav-part1 h4 {
@@ -49,7 +49,7 @@ body {
 
 #nav img {
     height: 100%;
-    background-color: green;
+    /* background-color: green; */
     width: 8vw;
     object-fit: cover;
     object-position: center;
@@ -68,7 +68,7 @@ body {
 #nav-part2 button {
     /* padding: 0.5vw 1vw; */
     padding: 1vw 1.7vw;
-    border-radius: 1.5vw;
+    border-radius: 2vw;
     color: #fff;
     font-size: 1vw;
     background-color: #0d0c22;
@@ -83,10 +83,12 @@ body {
 }
 
 #content {
-    height: 50%;
+    margin-top: 1vw;
+
+    height: 60%;
     width: 100%;
-    padding: 5vw 0px;
-    background-color: blue;
+    padding: 4.5vw 0px;
+    /* background-color: blue; */
 
 }
 
@@ -102,14 +104,87 @@ body {
     transform: translateX(-50%);
 
 }
-#content h1{
+
+#content h1 {
     text-align: center;
     margin-top: 2vw;
+    font-family: "source serif 4", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 5.7vw;
     font-size: 5.2vw;
 }
-#content h4{
+
+#content h4 {
     text-align: center;
-    margin-top: 1vw;
+    margin-top: 0.3vw;
+    font-size: 1.5vw;
+    margin-top: 1.6vw;
+}
+
+#content button {
+    padding: 1.2vw 1.6vw;
+    border-radius: 2vw;
+    color: #fff;
+    font-size: 1vw;
+    background-color: #0d0c22;
+    font-weight: 500;
+    border: none;
+    margin-top: 2vw;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#content-text {
+    /* background-color: red; */
+    height: 45%;
+    margin-top: 2vw;
+    width: 100%;
+    /* background-color: red; */
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding: 0.5vw;
+    gap: 1vw;
 
 }
 
+#content-text .elem {
+    animation: 40s linear infinite anime;
+    flex-shrink: 0;
+    /* background-color: blue; */
+    height: 100%;
+    width: 17%;
+    /* border: 2px solid black; */
+    border-radius: 3vw;
+    overflow: hidden;
+
+}
+
+
+#content-text .elem img {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+#content-text .elem video {
+    object-fit: cover;
+    object-position: center;
+    height: 100%;
+    width: 100%;
+}
+
+@keyframes anime {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-100vw);
+
+    }
+}
