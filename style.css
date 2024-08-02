@@ -152,6 +152,10 @@ body {
 
 }
 
+#content-text::-webkit-scrollbar {
+display: none;
+}
+
 #content-text .elem {
     animation: 40s linear infinite anime;
     flex-shrink: 0;
