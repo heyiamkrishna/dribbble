@@ -181,14 +181,23 @@ display: none;
     height: 100%;
     width: 100%;
 }
-
+#page2{
+    height: 100%;
+    width: 100%;
+    background-color: red;
+}
+#page2 h1{
+    text-align: center;
+    margin-top: 2vw;
+    background-color: blue;
+}
 @keyframes anime {
-    from {
+    /* from {
         transform: translateX(0);
     }
 
     to {
         transform: translateX(-100vw);
 
-    }
+    } */
 }
